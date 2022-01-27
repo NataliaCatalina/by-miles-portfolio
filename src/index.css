@@ -40,6 +40,42 @@ ul {
   padding: 5px;
 }
 
+/* PORTFOLIO  */
+.portfolio_container {
+  width: 100vh;
+  display: block;
+}
+
+.content_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  background-image: url('../public/images/pop-art-culture_BGVers_ForWeb.png');
+/* background-color: gray; */
+  grid-gap:20px;
+  padding: 20px;
+}
+
+.content_card {
+  display: block;
+  background-color: white;
+}
+
+img {
+  width: 100%;
+}
+
+.portfolio_text {
+  margin: 10px 20px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: brown;
+  border: none;
+  outline: none;
+  margin: 20px;
+}
 
 /* FOOTER  */
 footer {
