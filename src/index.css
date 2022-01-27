@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 ul {
@@ -20,7 +20,7 @@ ul {
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 10px 6px -10px #777;
-  padding: 0 74px 
+  padding: 0 74px;
 }
 
 .nav-logo {
@@ -33,7 +33,6 @@ ul {
   color: black;
   font-size: 18px;
 }
-
 
 .fab {
   font-size: 2rem;
@@ -49,10 +48,10 @@ ul {
 .content_container {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  background-image: url('../public/images/pop-art-culture_BGVers_ForWeb.png');
-/* background-color: gray; */
-  grid-gap:20px;
+  grid-template-columns: repeat(3, 1fr);
+  background-image: url("../public/images/pop-art-culture_BGVers_ForWeb.png");
+  /* background-color: gray; */
+  grid-gap: 20px;
   padding: 20px;
 }
 
@@ -75,6 +74,29 @@ button {
   border: none;
   outline: none;
   margin: 20px;
+}
+
+/* POP-UP  */
+.pop_up_container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0, 0.9);
+  padding-top: 15%;
+}
+
+.pop_up_body {
+  width: 70%;
+  height: 70%;
+  background-color: white;
+  margin: auto;
+}
+
+.pop_up_heade {
+  width: 100%;
+  text-align: right;
 }
 
 /* FOOTER  */

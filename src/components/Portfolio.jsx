@@ -7,8 +7,10 @@ import { projects } from '../data/data'
 
 function Portfolio() {
   const [ popContent, setPopContent ] = useState([])
+  const [ popTogle, setPopTogle] = useState(false)
   const changeContent = (project) => {
     setPopContent([project])
+    setPopTogle(!popTogle)
   }
   return (
     <>
@@ -29,24 +31,28 @@ function Portfolio() {
             );
           })}
         </div>
-        <div className="pop_up_container">
-          <div className="pop_up_header">
-            <button>X</button>
-          </div>
-          <div className="pop_up_content">
-            {popContent.map((pop)=>{
-              return (
-                <div key={pop}> 
-                  <div className="pop_up_card" >
-                    <p>test</p>
-                    <p>name: {pop.title} </p>
-                    <p>category: {pop.category}</p>
+        {popTogle&&<div className="pop_up_container" onClick={changeContent}>
+          <div className="pop_up_body" onClick={(e)=>e.stopPropagation()}>
+            <div className="pop_up_header">
+              <button onClick={changeContent}>X</button>
+            </div>
+            <div className="pop_up_content">
+              {popContent.map((pop)=>{
+                return (
+                  <div key={pop}> 
+                    <div className="pop_up_card" >
+                      <p>test</p>
+                      <p>name: {pop.title} </p>
+                      <p>category: {pop.category}</p>
+                      <span>{pop.embed}</span>
+                    </div>
                   </div>
-                </div>
-              )
-            })}
+                )
+              })}
+            </div>
           </div>
         </div>
+        }
       </div>
     </>
   )
