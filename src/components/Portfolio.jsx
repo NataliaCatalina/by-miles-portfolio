@@ -41,10 +41,10 @@ function Portfolio() {
                 return (
                   <div key={pop}> 
                     <div className="pop_up_card" >
-                      <p>test</p>
-                      <p>name: {pop.title} </p>
-                      <p>category: {pop.category}</p>
-                      <span>{pop.embed}</span>
+                      {/* <p>test</p> */}
+                      {/* <p>name: {pop.title} </p> */}
+                      {/* <p>category: {pop.category}</p> */}
+                      <span dangerouslySetInnerHTML={{ __html: pop.embed }}></span>
                     </div>
                   </div>
                 )
