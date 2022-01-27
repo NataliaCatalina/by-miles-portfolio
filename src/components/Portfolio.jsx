@@ -20,10 +20,19 @@ function Portfolio() {
                     alt=""
                   />
                   <p className="portfolio_text">{title}</p>
+                  <button>Detail</button>
                 </Link>
               </div>
             );
           })}
+        </div>
+        <div className="pop_up_container">
+          <div className="pop_upheader">
+            <button>X</button>
+          </div>
+          <div className="pop_up_content">
+            
+          </div>
         </div>
       </div>
     </>
