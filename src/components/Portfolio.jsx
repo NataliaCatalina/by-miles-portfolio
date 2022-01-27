@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
 // DATA 
 import { Projects } from '../data/data'
@@ -9,17 +10,20 @@ function Portfolio() {
     <>
       <div className="portfolio_container">
         <div className="content_container">
-          {
-            Projects.map((project)=> {
-              return (
-                <div className="content_card">
-                  <img src={`../images/${project.image}`} alt='' />
-                  <p className='portfolio_text'>{project.title}</p>
-                  <button>Details</button>
-                </div>
-              )
-            })
-          }
+          {Projects.map(({ id, title, image }) => {
+            return (
+              <div key={id}>
+                <Link className="content_card" to={`${id}`}>
+                  <img
+                    className="card-images"
+                    src={`../images/${image}`}
+                    alt=""
+                  />
+                  <p className="portfolio_text">{title}</p>
+                </Link>
+              </div>
+            );
+          })}
         </div>
       </div>
     </>
