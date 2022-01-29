@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react"
 
 function Projects({ projects }) {
-  const [popContent, setPopContent] = useState([]);
-  const [popTogle, setPopTogle] = useState(false);
+  const [popContent, setPopContent] = useState([])
+  const [popTogle, setPopTogle] = useState(false)
   const changeContent = (menuProject) => {
     setPopContent([menuProject]);
     setPopTogle(!popTogle);
-  };
+  }
 
   return (
     <div className="portfolio_container">
@@ -26,7 +26,7 @@ function Projects({ projects }) {
                 <p className="portfolio_text">{title}</p>
               </a>
             </div>
-          );
+          )
         })}
       </div>
 
@@ -49,7 +49,7 @@ function Projects({ projects }) {
                       ></span>
                     </div>
                   </div>
-                );
+                )
               })}
             </div>
           </div>
@@ -59,4 +59,4 @@ function Projects({ projects }) {
   )
 }
 
-export default Projects;
+export default Projects

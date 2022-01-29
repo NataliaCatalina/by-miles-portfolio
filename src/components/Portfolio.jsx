@@ -12,15 +12,15 @@ const allCategories = ["all",...new Set(projects.map((item) => item.category)),]
 
 function Portfolio() {
   // CONTENT
-  const [popContent, setPopContent] = useState(projects);
-  const [categories, setCategories] = useState(allCategories);
+  const [popContent, setPopContent] = useState(projects)
+  const [categories, setCategories] = useState(allCategories)
 
   const filterProjects = (category) => {
     if (category === "all") {
       setPopContent(projects)
       return;
     }
-    const newProjects = projects.filter((item) => item.category === category);
+    const newProjects = projects.filter((item) => item.category === category)
     setPopContent(newProjects)
   }
 
