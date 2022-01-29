@@ -1,59 +1,33 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from "react"
 // import { Link } from 'react-router-dom'
 
-// DATA 
-import { projects } from '../data/data'
+// DATA
+import projects from "../data/data"
 
+// COMPONENTS
+import Projects from "../components/Projects"
+import Categories from "../components/Categories"
+const allCategories = ["all",...new Set(projects.map((item) => item.category)),]
+// console.log(allCategories)
 
 function Portfolio() {
-  const [ popContent, setPopContent ] = useState([])
-  const [ popTogle, setPopTogle] = useState(false)
-  const changeContent = (project) => {
-    setPopContent([project])
-    setPopTogle(!popTogle)
+  // CONTENT
+  const [popContent, setPopContent] = useState(projects);
+  const [categories, setCategories] = useState(allCategories);
+
+  const filterProjects = (category) => {
+    if (category === "all") {
+      setPopContent(projects)
+      return;
+    }
+    const newProjects = projects.filter((item) => item.category === category);
+    setPopContent(newProjects)
   }
+
   return (
     <>
-      <div className="portfolio_container">
-        <div className="content_container">
-          {projects.map(( project ) => {
-            return (
-              <div key={project.id}>
-                <a className="content_card" onClick={()=> changeContent(project)}>
-                  <img
-                    className="card-images"
-                    src={`../images/${project.image}`}
-                    alt=""
-                  />
-                  <p className="portfolio_text">{project.title}</p>
-                </a>
-              </div>
-            );
-          })}
-        </div>
-        {popTogle&&<div className="pop_up_container" onClick={changeContent}>
-          <div className="pop_up_body" onClick={(e)=>e.stopPropagation()}>
-            <div className="pop_up_header">
-              <button onClick={changeContent}>X</button>
-            </div>
-            <div className="pop_up_content">
-              {popContent.map((pop)=>{
-                return (
-                  <div key={pop}> 
-                    <div className="pop_up_card" >
-                      {/* <p>test</p> */}
-                      {/* <p>name: {pop.title} </p> */}
-                      {/* <p>category: {pop.category}</p> */}
-                      <span dangerouslySetInnerHTML={{ __html: pop.embed }}></span>
-                    </div>
-                  </div>
-                )
-              })}
-            </div>
-          </div>
-        </div>
-        }
-      </div>
+      <Categories categories={categories} filterProjects={filterProjects} />
+      <Projects projects={popContent} />
     </>
   )
 }

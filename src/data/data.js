@@ -1,5 +1,4 @@
-export const projects = [
-
+const projects = [
   {
     id: 1,
     category: 'animation',
@@ -60,3 +59,5 @@ export const projects = [
     'Lindsay Christopherson&apos;s story of a spirited young NZ girl'
   }
 ]
+
+export default projects;
