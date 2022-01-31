@@ -7,7 +7,7 @@ import projects from "../data/data"
 // COMPONENTS
 import Projects from "../components/Projects"
 import Categories from "../components/Categories"
-const allCategories = ["all",...new Set(projects.map((item) => item.category)),]
+const allCategories = ["All",...new Set(projects.map((item) => item.category)),]
 // console.log(allCategories)
 
 function Portfolio() {
@@ -16,7 +16,7 @@ function Portfolio() {
   const [categories, setCategories] = useState(allCategories)
 
   const filterProjects = (category) => {
-    if (category === "all") {
+    if (category === "All") {
       setPopContent(projects)
       return;
     }

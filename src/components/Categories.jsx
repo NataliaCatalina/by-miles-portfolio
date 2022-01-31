@@ -2,10 +2,10 @@ import React from "react"
 
 function Categories({ categories, filterProjects }) {
   return (
-    <div>
+    <div className="category-btn-container">
       {categories.map((category, index) => {
         return (
-          <button
+          <button className="filter-btn"
             type="button"
             key={index}
             onClick={() => filterProjects(category)}
