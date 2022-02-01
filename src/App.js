@@ -11,7 +11,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Portfolio />
+      <div className='app-container'>
+        <Portfolio />
+      </div>
       <Footer />
     </div>
   );

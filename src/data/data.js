@@ -1,11 +1,11 @@
 const projects = [
-  {
-    id: 1,
-    category: 'Animation',
-    title: 'Showreel 2021',
-    image: 'Showreel.JPG',
-    embed: ''
-  },
+  // {
+  //   id: 1,
+  //   category: 'Animation',
+  //   title: 'Showreel 2021',
+  //   image: 'Showreel.JPG',
+  //   embed: ''
+  // },
   {
     id: 2,
     category: 'Animation',

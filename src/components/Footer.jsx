@@ -3,8 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <footer>
-      <p>
-        © 2022 Developed by &nbsp;
+      <p>© 2022 BY MILES</p>
+       <p> Developed by &nbsp;
         <a
           href="https://www.nataliacatalina.com/"
           target="_blank"
@@ -14,7 +14,8 @@ function Footer() {
         </a>
       </p>
     </footer>
-  );
+  )
 }
 
 export default Footer;
+

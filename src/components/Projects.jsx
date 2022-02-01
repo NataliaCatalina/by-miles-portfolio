@@ -12,7 +12,7 @@ function Projects({ projects }) {
     <div className="portfolio_container">
       <div className="content_container">
         {projects.map((menuProject) => {
-          const { id, image, title } = menuProject
+          const { id, image, title, category } = menuProject
           return (
             <div key={id}>
               <a
@@ -23,7 +23,10 @@ function Projects({ projects }) {
                   src={`../images/${image}`}
                   alt=""
                 />
-                <p className="portfolio_text">{title}</p>
+                <div className="portfolio_text">
+                  <p className="portfolio_text-title">{title}</p>
+                  <p className="portfolio_text-category">{category}</p>
+                </div>
               </a>
             </div>
           )
@@ -34,7 +37,7 @@ function Projects({ projects }) {
         <div className="pop_up_container" onClick={changeContent}>
           <div className="pop_up_body" onClick={(e) => e.stopPropagation()}>
             <div className="pop_up_header">
-              <button onClick={changeContent}>X</button>
+              <button onClick={chaategory-btn-containerngeContent}>X</button>
             </div>
             <div className="pop_up_content">
               {popContent.map((pop) => {
