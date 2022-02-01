@@ -37,7 +37,7 @@ function Projects({ projects }) {
         <div className="pop_up_container" onClick={changeContent}>
           <div className="pop_up_body" onClick={(e) => e.stopPropagation()}>
             <div className="pop_up_header">
-              <button onClick={chaategory-btn-containerngeContent}>X</button>
+              <button onClick={changeContent}>X</button>
             </div>
             <div className="pop_up_content">
               {popContent.map((pop) => {
