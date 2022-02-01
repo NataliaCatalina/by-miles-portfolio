@@ -14,10 +14,10 @@ function Projects({ projects }) {
         {projects.map((menuProject) => {
           const { id, image, title, category } = menuProject
           return (
-            <div key={id}>
+            <div key={id}  className="content_card">
               <a
-                className="content_card"
-                onClick={() => changeContent(menuProject)}>
+
+                 onClick={() => changeContent(menuProject)}>
                 <img
                   className="card-images"
                   src={`../images/${image}`}
