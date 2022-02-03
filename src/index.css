@@ -46,6 +46,10 @@ ul {
   padding: 5px;
 }
 
+.fa-vimeo-v {
+  margin-left: 20px;
+}
+
 /* PROJECTS COMPONENT  */
 
 .portfolio_container {
@@ -123,13 +127,23 @@ ul {
   text-align: center;
   border-radius: 5px 5px 0 0;
   text-align: center;
+  /* background-color: white; */
   background-color: #FFAD4C;
   color: white;
   transition: top .5s ease;
-  /* transition: opacity .35s ease; */
   opacity: 0;
-
 }
+
+.portfolio-category-animation {
+  background-color: #FFAD4C;
+}
+.portfolio-category-film {
+  background-color: #2BE5E5;
+}
+.portfolio-category-videography {
+  background-color: #03E787;
+}
+
 
 .content_card:hover .portfolio-category {
   top: 250px;

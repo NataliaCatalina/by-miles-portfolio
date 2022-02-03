@@ -18,7 +18,7 @@ const projects = [
   {
     id: 3,
     category: 'Animation',
-    title: '"Sindbad" Showreel 2016',
+    title: 'Sindbad - Showreel 2016',
     image: 'sindbad.JPG',
     embed: '<iframe src="https://player.vimeo.com/video/181881699?h=bb05db26cc&autoplay=1&portrait=0" width="900" height="506" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>' +
     '<p><a href="https://vimeo.com/181881699">Miles Wilson - Sindbad Showreel 2016</a> from <a href="https://vimeo.com/mileswilson">ByMiles Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>' +
@@ -35,7 +35,7 @@ const projects = [
   {
     id: 5,
     category: 'Films',
-    title: '"Faceoff" - NZ Short Film',
+    title: 'Faceoff - NZ Short Film',
     image: 'faceoff.JPG',
     embed: '<iframe width="900" height="506" src="https://www.youtube.com/embed/ou9tvAK6zgA" title="YouTube video player" frameborder="0" allow="accelerometer; allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
     description: 'Dissatisfied with her life, Helen finds a new path laid out before her. Will she embrace her power, or give up her chance at a different fate?'
@@ -51,13 +51,20 @@ const projects = [
   {
     id: 7,
     category: 'Films',
-    title: '"A Girl Called Elvis',
+    title: 'A Girl Called Elvis',
     image: 'aGirlCalledElvis.JPG',
     embed: '',
     description: 'A Girl Called Elvis is a short film about two siblings growing closer through a family quest.' +
     'When 10 year old Ellie hears that her father is back in town, she convinces her half-sister Carol to help her reconnect with him. Together with Carol&apos;s boyfriend Dion, they set off on their journey.' +    
     'Lindsay Christopherson&apos;s story of a spirited young NZ girl'
-  }
+  }, 
+    {
+    id: 8,
+    category: 'Videography',
+    title: 'Yoobee Experts - AFP Course - Introduction',
+    image: 'Showreel.JPG',
+    embed: ''
+  },
 ]
 
 export default projects;

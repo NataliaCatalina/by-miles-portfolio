@@ -8,11 +8,14 @@ function Projects({ projects }) {
     setPopTogle(!popTogle);
   }
 
+
+
   return (
     <div className="portfolio_container">
       <div className="content_container">
         {projects.map((menuProject) => {
           const { id, image, title, category } = menuProject
+        
           return (
             <div key={id}  className="content_card">
               <a
@@ -23,7 +26,9 @@ function Projects({ projects }) {
                   alt=""
                 />
                 <p className="portfolio-title">{title}</p>
+                
                 <p className="portfolio-category">{category}</p>
+                
                 <div className="overlay"></div>
               </a>
             </div>
