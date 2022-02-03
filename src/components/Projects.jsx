@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 
 
 function Projects({ projects }) {
@@ -9,32 +9,18 @@ function Projects({ projects }) {
     setPopTogle(!popTogle);
   }
 
-
-
   return (
     <div className="portfolio_container">
       <div className="content_container">
         {projects.map((menuProject) => {
-          const { id, image, title, category, categoryImage } = menuProject
-
-          // let categoryClass = ('portfolio-category')
-          // if (category === 'Film') {
-          //   categoryClass += ' portfolio-category-film'
-          // } else if (category === 'Videography'); {
-          //   categoryClass =+ ' portfolio-category-videography'
-          // } 
+          const { id, image, title, category, categoryClass } = menuProject
         
           return (
             <div key={id}  className="content_card">
-              <a
-                 onClick={() => changeContent(menuProject)}>
+              <a onClick={() => changeContent(menuProject)}>
                 <img className="card-images" src={`../images/${image}`} alt="" />
                 <p className="portfolio-title">{title}</p>
-                
-                <p className='portfolio-category'>{category}</p>
-                {/* <p className={categoryClass}>{category}</p> */}
-                {/* <img className="portfolio-category-img" src={`../images/${categoryImage}`} alt="" /> */}
-
+                <p className={'portfolio-category' + ' ' + categoryClass}>{category}</p>
                 <div className="overlay"></div>
               </a>
             </div>
