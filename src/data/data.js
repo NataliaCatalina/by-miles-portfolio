@@ -9,6 +9,7 @@ const projects = [
   {
     id: 2,
     category: 'Animation',
+    categoryImage: 'animation.png',
     title: '"25 April" Showreel 2016',
     image: '25-april.JPG',
     embed: '<iframe class="video" src="https://player.vimeo.com/video/187122203?h=fa80245ddb&autoplay=1&title=0&byline=0&portrait=0" width="900" height="506" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>' +
@@ -18,6 +19,7 @@ const projects = [
   {
     id: 3,
     category: 'Animation',
+    categoryImage: 'animation.png',
     title: 'Sindbad - Showreel 2016',
     image: 'sindbad.JPG',
     embed: '<iframe src="https://player.vimeo.com/video/181881699?h=bb05db26cc&autoplay=1&portrait=0" width="900" height="506" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>' +
@@ -27,6 +29,7 @@ const projects = [
   {
     id: 4,
     category: 'Animation',
+    categoryImage: 'animation.png',
     title: 'Titan Ideas Tech Demo',
     image: 'titan.JPG',
     embed: '<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftitanideasltd%2Fvideos%2F2169706589737685%2F&show_text=0&width=560" width="900" height="506" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
@@ -35,6 +38,7 @@ const projects = [
   {
     id: 5,
     category: 'Films',
+    categoryImage: 'film.png',
     title: 'Faceoff - NZ Short Film',
     image: 'faceoff.JPG',
     embed: '<iframe width="900" height="506" src="https://www.youtube.com/embed/ou9tvAK6zgA" title="YouTube video player" frameborder="0" allow="accelerometer; allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -43,6 +47,7 @@ const projects = [
   {
     id: 6,
     category: 'Films',
+    categoryImage: 'film.png',
     title: 'Off Course - NZ Short Film',
     image: 'offCourse.JPG',
     embed: '<iframe width=900" height="506" src="https://www.youtube.com/embed/or8ezRYqJGA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
@@ -51,6 +56,7 @@ const projects = [
   {
     id: 7,
     category: 'Films',
+    categoryImage: 'film.png',
     title: 'A Girl Called Elvis',
     image: 'aGirlCalledElvis.JPG',
     embed: '',
@@ -61,6 +67,7 @@ const projects = [
     {
     id: 8,
     category: 'Videography',
+    categoryImage: 'videography.png',
     title: 'Yoobee Experts - AFP Course - Introduction',
     image: 'Showreel.JPG',
     embed: ''
