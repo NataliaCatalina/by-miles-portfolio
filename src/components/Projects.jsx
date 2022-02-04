@@ -4,14 +4,22 @@ import React, { useState } from "react"
 function Projects({ projects }) {
   const [popContent, setPopContent] = useState([])
   const [popTogle, setPopTogle] = useState(false)
+  const [styling, setStyling] = useState(null)
   const changeContent = (menuProject) => {
     setPopContent([menuProject]);
     setPopTogle(!popTogle);
+    if(styling === null) {
+      setStyling({
+        position:'fixed',
+      })
+    } else {
+      setStyling (null)
+    }
   }
 
   return (
     <div className="portfolio_container">
-      <div className="content_container">
+      <div className="content_container" style={styling}>
         {projects.map((menuProject) => {
           const { id, image, title, category, categoryClass } = menuProject
         
@@ -32,7 +40,9 @@ function Projects({ projects }) {
         <div className="pop_up_container" onClick={changeContent}>
           <div className="pop_up_body" onClick={(e) => e.stopPropagation()}>
             <div className="pop_up_header">
-              <button onClick={changeContent}>X</button>
+              {/* <button onClick={changeContent}><i class="fas fa-times"></i></button> */}
+              <button onClick={changeContent}><i class="fas fa-times-circle"></i></button>
+              {/* <button onClick={changeContent}><i class="fas fa-times-circle"></i></button> */}
             </div>
             <div className="pop_up_content">
               {popContent.map((pop) => {
@@ -42,9 +52,8 @@ function Projects({ projects }) {
                       {/* <p>test</p> */}
                       {/* <p>name: {pop.title} </p> */}
                       {/* <p>category: {pop.category}</p> */}
-                      <span
-                        dangerouslySetInnerHTML={{ __html: pop.embed }}
-                      ></span>
+                      <span dangerouslySetInnerHTML={{ __html: pop.embed}}></span>
+               
                     </div>
                   </div>
                 )

@@ -186,23 +186,40 @@ ul {
 }
 
 .pop_up_body {
-  width: 45%;
+  border: 1px solid pink;
+  width: 90%;
   height: auto;
-  background-color: white;
+  /* background-color: white; */
+  background: rgba(0, 0, 0, 0);
   margin: auto;
 }
 
 .pop_up_heade {
   width: 100%;
   text-align: right;
+} 
+
+button {
+  background-color: transparent;
+  border: none;
+  font-weight: 100;
+  float: right;
+}
+
+.fa-times, .fa-times-circle {
+  font-size: 3rem;
+  color: white;
 }
 
 /* EMBED  VIDEOS */
 .video {
   width: 100%;
-  margin: 0;
-  padding: 0;
+  padding-top: 3%;
+  /* margin: 0; */
+  /* padding: 0; */
 }
+
+
 
 /* FOOTER  */
 footer {
@@ -227,19 +244,21 @@ footer p a {
 *    tablet   *
 **************/
 @media screen and (min-width: 601px) and (max-width: 799px) {
-  /* .content_container {
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 10px;
-    border: 1px solid orange;
-  } */
+  .pop_up_body {
+    border: 1px solid purple;
+    width: 90%;
+    height: auto;
+  }
+  
 }
 
 /**************
 *    Mobile   *
 **************/
 @media screen and (max-width: 600px) {
- 
+  .pop_up_body {
+    border: 1px solid green;
+    width: 90%;
+    height: auto;
+  }
 }

@@ -1,11 +1,12 @@
 const projects = [
-  // {
-  //   id: 1,
-  //   category: 'Animation',
-  //   title: 'Showreel 2021',
-  //   image: 'Showreel.JPG',
-  //   embed: ''
-  // },
+  {
+    id: 1,
+    category: 'Animation',
+    categoryClass: 'portfolio-category-animation',
+    title: 'Showreel 2021',
+    image: 'Showreel.JPG',
+    embed: ''
+  },
   {
     id: 2,
     category: 'Animation',
@@ -69,7 +70,7 @@ const projects = [
     category: 'Videography',
     categoryClass: 'portfolio-category-videography',
     title: 'Yoobee Experts - AFP Course - Introduction',
-    image: 'Showreel.JPG',
+    image: '',
     embed: ''
   }
 ]
