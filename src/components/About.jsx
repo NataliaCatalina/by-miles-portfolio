@@ -16,7 +16,7 @@ function About () {
         <p>
           Feel free to drop me a line, or flick out an email.
         </p>
-        <p>Email: <a href = "mailto: miles.dt.wilson@gmail.com">miles.dt.wilson@gmail.com</a></p>
+        <p>Email: <a href = "mailto: bymiles.nz@gmail.com">bymiles.nz@gmail.com</a></p>
         <p>Tel: <a href="tel:+6421 126 2046">+6421 126 2046</a></p>
       </div>
     </div>

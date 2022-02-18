@@ -43,7 +43,7 @@ nav {
 }
 
 .nav-logo:hover {
-  color: hsl(205, 78%, 60%);
+  color: hsl(32, 94%, 56%);
 }
 
 .nav-toggle {
@@ -316,7 +316,8 @@ button {
   margin-left: auto;
   margin-right: auto;
   /* marging-top: 30px; */
-  background-color: white;
+  /* background-color: white; */
+  /* color: white; */
   border-radius: 5px;
   /* border: 1px solid pink; */
 }
@@ -330,6 +331,7 @@ button {
 
 .about-image {
   width: 100%;
+  border-radius: 5px;
 }
 
 .information_container {
@@ -337,7 +339,7 @@ button {
   width: 50%;
   height: auto;
   padding: 80px 60px;
-  color: black;
+  color: white;
 }
 
 .information_container,
