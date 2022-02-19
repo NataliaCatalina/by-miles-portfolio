@@ -43,7 +43,7 @@ nav {
 }
 
 .nav-logo:hover {
-  color: hsl(32, 94%, 56%);
+  color: #ffad4c;
 }
 
 .nav-toggle {
@@ -68,7 +68,7 @@ nav {
   transition: all 0.3s linear;
 }
 .links a:hover {
-  color: hsl(205, 78%, 60%);
+  color: #2be5e5;
   padding-left: 1.5rem;
 }
 .social-icons {
@@ -136,7 +136,7 @@ nav {
   }
 
   .social-icons a:hover {
-    color: hsl(205, 90%, 76%);
+    color: #2be5e5;
   }
 }
 
@@ -315,9 +315,6 @@ button {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  /* marging-top: 30px; */
-  /* background-color: white; */
-  /* color: white; */
   border-radius: 5px;
   /* border: 1px solid pink; */
 }
