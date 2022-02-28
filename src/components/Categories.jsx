@@ -8,8 +8,7 @@ function Categories({ categories, filterProjects }) {
           <button className="filter-btn"
             type="button"
             key={index}
-            onClick={() => filterProjects(category)}
-          >
+            onClick={() => filterProjects(category)}  >
             {category}
           </button>
         )

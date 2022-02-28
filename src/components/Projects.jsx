@@ -8,8 +8,7 @@ function Projects({ projects }) {
   const changeContent = (menuProject) => {
     setPopContent([menuProject]);
     setPopTogle(!popTogle);
-    if(styling === null) {
-      setStyling({
+      if(styling === null) { setStyling ({
         position:'fixed',
       })
     } else {
@@ -40,9 +39,7 @@ function Projects({ projects }) {
         <div className="pop_up_container" onClick={changeContent}>
           <div className="pop_up_body" onClick={(e) => e.stopPropagation()}>
             <div className="pop_up_header">
-              {/* <button onClick={changeContent}><i class="fas fa-times"></i></button> */}
               <button onClick={changeContent}><i class="fas fa-times-circle"></i></button>
-              {/* <button onClick={changeContent}><i class="fas fa-times-circle"></i></button> */}
             </div>
             <div className="pop_up_content">
               {popContent.map((pop) => {
