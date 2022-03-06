@@ -161,7 +161,7 @@ nav {
   /* border: 1px solid blue; */
   position: relative;
   margin: 0.5%;
-  width: 500px;
+  width: 450px;
   height: 282px;
 }
 
@@ -189,7 +189,7 @@ nav {
 
 .portfolio-title {
   position: absolute;
-  width: 500px;
+  width: 450px;
   top: 120px;
   font-weight: 700;
   font-size: 30px;
@@ -209,7 +209,7 @@ nav {
   position: absolute;
   width: 100px;
   height: 31px;
-  top: 100%;
+  top: 85%;
   left: 70%;
   padding-top: 1%;
   text-align: center;
@@ -231,7 +231,7 @@ nav {
 }
 
 .content_card:hover .portfolio-category {
-  top: 250px;
+  top: 222px;
   opacity: 1;
 }
 

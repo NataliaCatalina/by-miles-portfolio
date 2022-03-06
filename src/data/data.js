@@ -3,7 +3,7 @@ const projects = [
     id: 1,
     category: 'Animation',
     categoryClass: 'portfolio-category-animation',
-    title: '"25 April" Showreel 2016',
+    title: '25 April - Showreel 2016',
     image: '25-april.JPG',
     embed:
       '<iframe class="video" src="https://player.vimeo.com/video/187122203?h=fa80245ddb&autoplay=1&title=0&byline=0&portrait=0" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>' +
