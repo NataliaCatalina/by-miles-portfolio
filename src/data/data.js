@@ -15,7 +15,7 @@ const projects = [
     category: 'Animation',
     categoryClass: 'portfolio-category-animation',
     title: 'Sindbad - Showreel 2016',
-    image: 'images/sindbad.JPG',
+    image: 'sindbad.JPG',
     embed:
       '<iframe class="video" src="https://player.vimeo.com/video/181881699?h=bb05db26cc&autoplay=1&portrait=0" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>' +
       '<p class="video-title"><a href="https://vimeo.com/181881699">Miles Wilson - Sindbad Showreel 2016</a> from <a href="https://vimeo.com/mileswilson">ByMiles Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>' +
