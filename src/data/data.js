@@ -26,7 +26,7 @@ const projects = [
     category: 'Films',
     categoryClass: 'portfolio-category-film',
     title: 'Faceoff - NZ Short Film',
-    image: 'images/faceoff.JPG',
+    image: 'faceoff.jpg',
     embed:
       '<iframe class="video" width="1000" height="563" src="https://www.youtube.com/embed/ou9tvAK6zgA" title="YouTube video player" frameborder="0" allow="accelerometer; allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' +
       '<p class="video-title"><a href="https://www.youtube.com/watch?v=ou9tvAK6zgA">Miles Wilson - Faceoff - NZ Short Film</a> from <a href="https://www.youtube.com/channel/UC3YDKrX_LHbR8fAcCfBdg2A">ByMiles Productions</a></p>',
