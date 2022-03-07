@@ -4,7 +4,7 @@ const projects = [
     category: 'Animation',
     categoryClass: 'portfolio-category-animation',
     title: '25 April - Showreel 2016',
-    image: 'images/25-april.JPG',
+    image: './images/25-april.JPG',
     embed:
       '<iframe class="video" src="https://player.vimeo.com/video/187122203?h=fa80245ddb&autoplay=1&title=0&byline=0&portrait=0" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>' +
       '<p class="video-title"><a href="https://vimeo.com/187122203">Miles Wilson - &quot;25 April&quot; Showreel 2016</a> from <a href="https://vimeo.com/mileswilson">ByMiles Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>' +
