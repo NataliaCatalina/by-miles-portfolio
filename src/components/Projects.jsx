@@ -25,7 +25,7 @@ function Projects({ projects }) {
           return (
             <div key={id}  className="content_card">
               <a onClick={() => changeContent(menuProject)}>
-                <img className="card-images" src={image} alt="" />
+                <img className="card-images" src={`../images/${image}`} alt="" />
                 <p className="portfolio-title">{title}</p>
                 <p className={'portfolio-category' + ' ' + categoryClass}>{category}</p>
                 <div className="overlay"></div>

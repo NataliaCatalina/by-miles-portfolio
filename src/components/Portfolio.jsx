@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react"
-// import { Link } from 'react-router-dom'
+import React, { useState } from "react"
+
 
 // DATA
 import projects from "../data/data"
