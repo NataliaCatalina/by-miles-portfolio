@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/by-miles-portfolio/static/css/main.e376cc50.css",
+    "main.css": "/by-miles-portfolio/static/css/main.22726796.css",
     "main.js": "/by-miles-portfolio/static/js/main.e0823d66.js",
     "static/js/787.15808e71.chunk.js": "/by-miles-portfolio/static/js/787.15808e71.chunk.js",
     "static/media/pop-art.png": "/by-miles-portfolio/static/media/pop-art.4c2b5a90d1c6409c8f0c.png",
@@ -12,12 +12,12 @@
     "static/media/lux.jpg": "/by-miles-portfolio/static/media/lux.41bae088a0266aa1875c.jpg",
     "static/media/25april.jpg": "/by-miles-portfolio/static/media/25april.84d6ea19016117c4ca1b.jpg",
     "index.html": "/by-miles-portfolio/index.html",
-    "main.e376cc50.css.map": "/by-miles-portfolio/static/css/main.e376cc50.css.map",
+    "main.22726796.css.map": "/by-miles-portfolio/static/css/main.22726796.css.map",
     "main.e0823d66.js.map": "/by-miles-portfolio/static/js/main.e0823d66.js.map",
     "787.15808e71.chunk.js.map": "/by-miles-portfolio/static/js/787.15808e71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e376cc50.css",
+    "static/css/main.22726796.css",
     "static/js/main.e0823d66.js"
   ]
 }
