@@ -14,7 +14,7 @@ ul {
 }
 
 .app-container {
-  background-image: url("../public/images/pop-art-culture_BGVers_ForWeb-bw.png");
+  background-image: url("./images/pop-art.png");
   min-height: 768px;
   padding: 40px 0;
   /* border: 1px solid yellowgreen; */

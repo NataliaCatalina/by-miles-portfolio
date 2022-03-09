@@ -5,7 +5,7 @@ function About () {
 
     <div className='about_container'>
       <div className='image_container'>
-        <img className='about-image' src='../images/MilesWilson.jpg' alt="Black and white portrait of Miles Wilson" />
+        <img className='about-image' src={require('../images/miles-wilson.jpg')} alt="Black and white portrait of Miles Wilson" />
       </div>
       <div className='information_container'>
         <h1>Contact Me</h1>
