@@ -1,23 +1,23 @@
 {
-  "files": {
-    "main.css": "/by-miles-portfolio/static/css/main.6814da10.css",
-    "main.js": "/by-miles-portfolio/static/js/main.e0823d66.js",
-    "static/js/787.15808e71.chunk.js": "/by-miles-portfolio/static/js/787.15808e71.chunk.js",
-    "static/media/pop-art.png": "/by-miles-portfolio/static/media/pop-art.4c2b5a90d1c6409c8f0c.png",
-    "static/media/miles-wilson.jpg": "/by-miles-portfolio/static/media/miles-wilson.3094461d926962f3875a.jpg",
-    "static/media/sindbad.jpg": "/by-miles-portfolio/static/media/sindbad.ae193f213d251d202dbc.jpg",
-    "static/media/wolves-training.jpg": "/by-miles-portfolio/static/media/wolves-training.7d160d1b92fdb9cd2ad1.jpg",
-    "static/media/off-course.jpg": "/by-miles-portfolio/static/media/off-course.a7476bb5efa7e22f586f.jpg",
-    "static/media/face-off.jpg": "/by-miles-portfolio/static/media/face-off.0e5598198c142ef63a01.jpg",
-    "static/media/lux.jpg": "/by-miles-portfolio/static/media/lux.41bae088a0266aa1875c.jpg",
-    "static/media/25april.jpg": "/by-miles-portfolio/static/media/25april.84d6ea19016117c4ca1b.jpg",
-    "index.html": "/by-miles-portfolio/index.html",
-    "main.6814da10.css.map": "/by-miles-portfolio/static/css/main.6814da10.css.map",
-    "main.e0823d66.js.map": "/by-miles-portfolio/static/js/main.e0823d66.js.map",
-    "787.15808e71.chunk.js.map": "/by-miles-portfolio/static/js/787.15808e71.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.6814da10.css",
-    "static/js/main.e0823d66.js"
-  ]
+  "main.css": "/static/css/main.af83e8ab.chunk.css",
+  "main.js": "/static/js/main.511298d3.chunk.js",
+  "main.js.map": "/static/js/main.511298d3.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.ba9f6ff0.js",
+  "runtime~main.js.map": "/static/js/runtime~main.ba9f6ff0.js.map",
+  "static/js/2.3d00d10e.chunk.js": "/static/js/2.3d00d10e.chunk.js",
+  "static/js/2.3d00d10e.chunk.js.map": "/static/js/2.3d00d10e.chunk.js.map",
+  "static/js/3.79a04dbb.chunk.js": "/static/js/3.79a04dbb.chunk.js",
+  "static/js/3.79a04dbb.chunk.js.map": "/static/js/3.79a04dbb.chunk.js.map",
+  "index.html": "/index.html",
+  "precache-manifest.48d9ec989d0c824bc5a4b115ea9bcc70.js": "/precache-manifest.48d9ec989d0c824bc5a4b115ea9bcc70.js",
+  "service-worker.js": "/service-worker.js",
+  "static/css/main.af83e8ab.chunk.css.map": "/static/css/main.af83e8ab.chunk.css.map",
+  "static/media/25april.jpg": "/static/media/25april.3a9aad2b.jpg",
+  "static/media/face-off.jpg": "/static/media/face-off.5f308ae5.jpg",
+  "static/media/lux.jpg": "/static/media/lux.7667f9bc.jpg",
+  "static/media/miles-wilson.jpg": "/static/media/miles-wilson.77d24028.jpg",
+  "static/media/off-course.jpg": "/static/media/off-course.d60fca80.jpg",
+  "static/media/pop-art.png": "/static/media/pop-art.e9b980af.png",
+  "static/media/sindbad.jpg": "/static/media/sindbad.607b091f.jpg",
+  "static/media/wolves-training.jpg": "/static/media/wolves-training.f3dc4b2c.jpg"
 }
