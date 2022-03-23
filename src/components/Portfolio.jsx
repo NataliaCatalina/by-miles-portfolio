@@ -8,7 +8,6 @@ import projects from "../data/data"
 import Projects from "../components/Projects"
 import Categories from "../components/Categories"
 const allCategories = ["All",...new Set(projects.map((item) => item.category)),]
-// console.log(allCategories)
 
 function Portfolio() {
   // CONTENT
