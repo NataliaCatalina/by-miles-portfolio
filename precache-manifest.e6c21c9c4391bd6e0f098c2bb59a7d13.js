@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "4d75869cdb521f3f2b66",
-    "url": "/static/css/main.f2957d3f.chunk.css"
+    "revision": "902b8f7cb865b6046d69",
+    "url": "/static/css/main.c4133560.chunk.css"
   },
   {
-    "revision": "4d75869cdb521f3f2b66",
+    "revision": "902b8f7cb865b6046d69",
     "url": "/static/js/main.b3ea38c8.chunk.js"
   },
   {
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/wolves-training.f3dc4b2c.jpg"
   },
   {
-    "revision": "5b5002b2d065559efad459e24f0a1533",
+    "revision": "5243808b68afe863eb6cb48037b571b3",
     "url": "/index.html"
   }
 ];
