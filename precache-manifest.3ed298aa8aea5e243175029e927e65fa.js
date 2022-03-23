@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "902b8f7cb865b6046d69",
-    "url": "/static/css/main.c4133560.chunk.css"
+    "revision": "9936e4e3d295aee310a6",
+    "url": "/static/css/main.7f5e9336.chunk.css"
   },
   {
-    "revision": "902b8f7cb865b6046d69",
-    "url": "/static/js/main.b3ea38c8.chunk.js"
+    "revision": "9936e4e3d295aee310a6",
+    "url": "/static/js/main.9936e4e3.chunk.js"
   },
   {
-    "revision": "89835fe290a45d3e62a0",
-    "url": "/static/js/runtime~main.ba9f6ff0.js"
+    "revision": "c972895fac6c9db70f84",
+    "url": "/static/js/1.c972895f.chunk.js"
   },
   {
-    "revision": "36770140c4e513c056a4",
-    "url": "/static/js/2.3d00d10e.chunk.js"
+    "revision": "1ecdd3b2dbd99e780a6d",
+    "url": "/static/js/2.1ecdd3b2.chunk.js"
   },
   {
-    "revision": "9ac7d1fb223f2f9a1e9e",
-    "url": "/static/js/3.79a04dbb.chunk.js"
+    "revision": "4431f52a260a7d5c73e4",
+    "url": "/static/js/runtime~main.4431f52a.js"
   },
   {
     "revision": "77d24028e9d296220f2b8e0dc93632a4",
@@ -25,7 +25,11 @@ self.__precacheManifest = [
   },
   {
     "revision": "e9b980af5d3bbd6ea28ad24ca63a5d96",
-    "url": "/static/media/pop-art.e9b980af.png"
+    "url": "/static/media/pop-art-dark.e9b980af.png"
+  },
+  {
+    "revision": "acf8ad2fb79854f091d0cb808ebc8f9c",
+    "url": "/static/media/pop-art-light.acf8ad2f.png"
   },
   {
     "revision": "3a9aad2bd155108ee7368896f41d23a6",
@@ -52,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/wolves-training.f3dc4b2c.jpg"
   },
   {
-    "revision": "5243808b68afe863eb6cb48037b571b3",
+    "revision": "73f7c919474e325561ec87414fe904eb",
     "url": "/index.html"
   }
 ];
