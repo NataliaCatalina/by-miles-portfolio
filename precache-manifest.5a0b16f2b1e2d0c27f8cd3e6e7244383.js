@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9936e4e3d295aee310a6",
-    "url": "/static/css/main.7f5e9336.chunk.css"
+    "revision": "473347d55f720fe6cf8e",
+    "url": "/static/css/main.844c5b09.chunk.css"
   },
   {
-    "revision": "9936e4e3d295aee310a6",
-    "url": "/static/js/main.9936e4e3.chunk.js"
+    "revision": "473347d55f720fe6cf8e",
+    "url": "/static/js/main.473347d5.chunk.js"
   },
   {
     "revision": "c972895fac6c9db70f84",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/static/media/miles-wilson.77d24028.jpg"
   },
   {
-    "revision": "e9b980af5d3bbd6ea28ad24ca63a5d96",
-    "url": "/static/media/pop-art-dark.e9b980af.png"
-  },
-  {
     "revision": "acf8ad2fb79854f091d0cb808ebc8f9c",
     "url": "/static/media/pop-art-light.acf8ad2f.png"
+  },
+  {
+    "revision": "e9b980af5d3bbd6ea28ad24ca63a5d96",
+    "url": "/static/media/pop-art-dark.e9b980af.png"
   },
   {
     "revision": "3a9aad2bd155108ee7368896f41d23a6",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/static/media/wolves-training.f3dc4b2c.jpg"
   },
   {
-    "revision": "73f7c919474e325561ec87414fe904eb",
+    "revision": "7cd611bc20a31091c5c7a3cbc70eb44b",
     "url": "/index.html"
   }
 ];
