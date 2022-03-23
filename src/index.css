@@ -491,7 +491,7 @@ footer p a:hover {
   }
 
   .about_container {
-    display: block;
+    flex-direction: column;
   }
   
   .image_container {
