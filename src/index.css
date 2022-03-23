@@ -1,17 +1,21 @@
 :root {
-  --background: #ffffff;
-  --text-primary: #000;
-  --background-image: url("./images/pop-art-light.png");
-  --accent: #000000;
-  --border:  #ffffff;
-}
 
-[data-theme='dark'] {
+
+
   --background: #0e0e0e;;
   --text-primary: #fff;
   --background-image: url("./images/pop-art-dark.png");
   --accent: #ffffff;
   --border: #000000;
+
+}
+
+[data-theme='dark'] {
+  --background: #ffffff;
+  --text-primary: #000;
+  --background-image: url("./images/pop-art-light.png");
+  --accent: #000000;
+  --border:  #ffffff;
 }
 
 * {
