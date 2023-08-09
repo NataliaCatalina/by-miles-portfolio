@@ -1,23 +1,23 @@
-import React, { useState } from "react"
-
+import React, { useState } from 'react'
 
 // DATA
-import projects from "../data/data"
+import projects from '../data/data'
 
 // COMPONENTS
-import Projects from "../components/Projects"
-import Categories from "../components/Categories"
-const allCategories = ["All",...new Set(projects.map((item) => item.category)),]
+import Projects from '../components/Projects'
+import Categories from '../components/Categories'
+const allCategories = ['All', ...new Set(projects.map((item) => item.category))]
 
 function Portfolio() {
   // CONTENT
   const [popContent, setPopContent] = useState(projects)
-  const [categories, setCategories] = useState(allCategories)
+  // const [categories, setCategories] = useState(allCategories)
+  const categories = allCategories
 
   const filterProjects = (category) => {
-    if (category === "All") {
+    if (category === 'All') {
       setPopContent(projects)
-      return;
+      return
     }
     const newProjects = projects.filter((item) => item.category === category)
     setPopContent(newProjects)

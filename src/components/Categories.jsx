@@ -1,14 +1,14 @@
-import React from "react"
-
 function Categories({ categories, filterProjects }) {
   return (
     <div className="category-btn-container">
       {categories.map((category, index) => {
         return (
-          <button className="filter-btn"
+          <button
+            className="filter-btn"
             type="button"
             key={index}
-            onClick={() => filterProjects(category)}  >
+            onClick={() => filterProjects(category)}
+          >
             {category}
           </button>
         )
