@@ -1,21 +1,17 @@
 :root {
-
-
-
-  --background: #0e0e0e;;
+  --background: #0e0e0e;
   --text-primary: #fff;
-  --background-image: url("./images/pop-art-dark.png");
+  --background-image: url('./images/pop-art-dark.png');
   --accent: #ffffff;
   --border: #000000;
-
 }
 
 [data-theme='dark'] {
   --background: #ffffff;
   --text-primary: #000;
-  --background-image: url("./images/pop-art-light.png");
+  --background-image: url('./images/pop-art-light.png');
   --accent: #000000;
-  --border:  #ffffff;
+  --border: #ffffff;
 }
 
 * {
@@ -25,7 +21,7 @@
 }
 
 body {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   background-color: var(--background);
 }
 
@@ -171,7 +167,6 @@ nav {
   .social-icons a:hover {
     color: #2be5e5;
   }
-
 }
 
 /* PROJECTS COMPONENT  */
@@ -324,7 +319,8 @@ button {
   float: right;
 }
 
-.fa-times, .fa-times-circle {
+.fa-times,
+.fa-times-circle {
   font-size: 3rem;
   color: white;
 }
@@ -377,12 +373,14 @@ button {
   color: var(--text-primary);
 }
 
-.information_container, h1 {
+.information_container,
+h1 {
   text-align: center;
   padding-bottom: 20px;
 }
 
-.information_container, p {
+.information_container,
+p {
   text-align: left;
   padding-bottom: 20px;
 }
@@ -462,7 +460,6 @@ footer p a:hover {
   .video-description {
     padding: 0 3% 0 3%;
   }
-
 }
 
 /**************
@@ -487,7 +484,7 @@ footer p a:hover {
   }
 
   .filter-btn {
-    margin: 0 ;
+    margin: 0;
     padding: 0.375rem 0.5rem;
   }
 
@@ -513,7 +510,7 @@ footer p a:hover {
     text-align: center;
     margin-top: 0%;
   }
-  
+
   .video-title a {
     color: #2be5e5;
     font-weight: 700;
@@ -526,7 +523,7 @@ footer p a:hover {
   .about_container {
     flex-direction: column;
   }
-  
+
   .image_container {
     margin-left: auto;
     margin-right: auto;
@@ -542,15 +539,13 @@ footer p a:hover {
   .overlay {
     height: 90%;
   }
-  
 }
 
 @media (max-device-width: 540px) {
   .portfolio-category {
     left: 65%;
   }
-
- }
+}
 
 /* @media (max-device-width: 320px) {
 
