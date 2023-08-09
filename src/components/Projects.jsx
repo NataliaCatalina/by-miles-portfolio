@@ -1,9 +1,10 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 function Projects({ projects }) {
   const [popContent, setPopContent] = useState([])
   const [popTogle, setPopTogle] = useState(false)
   const [styling, setStyling] = useState(null)
+  
   const changeContent = (menuProject) => {
     setPopContent([menuProject])
     setPopTogle(!popTogle)
