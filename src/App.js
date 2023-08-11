@@ -8,7 +8,7 @@ import About from './components/About'
 import Footer from './components/Footer'
 
 function App() {
-  const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
+  const [theme, setTheme] = useLocalStorage('theme', 'light')
 
   const switchTheme = () => {
     const newTheme = theme === 'light' ? 'dark' : 'light'
