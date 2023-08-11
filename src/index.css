@@ -284,6 +284,11 @@ nav {
   border-radius: 0.25rem;
 }
 
+.filter-btn.active {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
 .filter-btn:hover {
   background: var(--accent);
   color: var(--border);
