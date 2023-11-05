@@ -12,6 +12,15 @@ function Footer() {
           </a>
         </li>
         <li>
+              <a
+                href="https://www.imdb.com/name/nm7711010/?ref_=ext_shr_lnk"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-imdb"></i>
+              </a>
+            </li>
+        <li>
           <a
             href="https://www.linkedin.com/in/miles-wilson-7aa2b170/"
             target="_blank"
