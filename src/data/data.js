@@ -1,6 +1,16 @@
 const projects = [
   {
     id: 1,
+    category: 'Videography',
+    categoryClass: 'portfolio-category-videography',
+    title: 'Showreel 2021',
+    image: 'byMiles.jpeg',
+    embed:
+      '<iframe class="video" src="https://player.vimeo.com/video/634509225?h=d97a5fd989" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>' +
+      '<p><a href="https://vimeo.com/634509225">Showreel 2021</a> from <a href="https://vimeo.com/mileswilson">ByMiles Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>',
+  },
+  {
+    id: 2,
     category: 'Animation',
     categoryClass: 'portfolio-category-animation',
     title: '25 April - Showreel 2016',
@@ -11,7 +21,7 @@ const projects = [
       '<p class="video-description">My work on Flux Animation Studio&#039;s &quot;25 April&quot;, a comic-styled documentary of Gallipoli.<br />    I served as a Junior Animator on this film, delivering 3D character animation of feature quality. One of the interesting challenges I faced with this was the animation style, which utilized a low frame rate and an emphasis on static holds to sell the comic book aesthetic.<br />    Credit to Flux Animation Studios for the production.<br />    Music credit to Ladysmith Black Mambazo - &quot;Rain, Rain, Beautiful Rain&quot;<br />    All 3D Character Animation by Miles Wilson</p>',
   },
   {
-    id: 2,
+    id: 3,
     category: 'Animation',
     categoryClass: 'portfolio-category-animation',
     title: 'Sindbad - Showreel 2016',
@@ -22,7 +32,7 @@ const projects = [
       '<p class="video-description">A selection of my work on the unreleased TV show, Sindbad and the Seven Galaxies.</p>',
   },
   {
-    id: 3,
+    id: 4,
     category: 'Films',
     categoryClass: 'portfolio-category-film',
     title: 'Faceoff - NZ Short Film',
@@ -34,7 +44,7 @@ const projects = [
       'Dissatisfied with her life, Helen finds a new path laid out before her. Will she embrace her power, or give up her chance at a different fate?',
   },
   {
-    id: 4,
+    id: 5,
     category: 'Films',
     categoryClass: 'portfolio-category-film',
     title: 'Off Course - NZ Short Film',
@@ -46,7 +56,7 @@ const projects = [
       'Evie has always seen her father as her opposite, a man lacking her ambitions as an adventurer. However, when she discovers evidence of an exciting old life, nothing can stop her from uncovering the truth behind it, and possibly reconnecting with her brother in the process...',
   },
   {
-    id: 5,
+    id: 6,
     category: 'Videography',
     categoryClass: 'portfolio-category-videography',
     title: 'Wellington Wolves Training',
@@ -57,7 +67,7 @@ const projects = [
       '<p class="video-description">Natalia and I had the pleasure of photographing this American Football team during training. I made sure to get some extra footage as we worked, and this is what I got.<br />   bymiles.co.nz</p>',
   },
   {
-    id: 6,
+    id: 7,
     category: 'Videography',
     categoryClass: 'portfolio-category-videography',
     title: 'LUX Festival Wellington',
@@ -65,7 +75,7 @@ const projects = [
     embed:
       '<iframe class="video" src="https://player.vimeo.com/video/280911174?h=a71c2b9c60&autoplay=1&portrait=0" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>' +
       '<p class="video-title"><a href="https://vimeo.com/280911174">Miles Wilson - LUX Festival Wellington</a> from <a href="https://vimeo.com/mileswilson">ByMiles Productions</a> on <a href="https://vimeo.com">Vimeo</a>.</p>',
-  },
+  }
 ]
 
 export default projects

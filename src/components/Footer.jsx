@@ -39,7 +39,7 @@ function Footer() {
           </a>
         </li>
       </ul>
-      <p>© 2023 BY MILES</p>
+      <p>© 2024 BY MILES</p>
       <p>
         {' '}
         Developed by &nbsp;
