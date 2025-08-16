@@ -24,9 +24,7 @@ function Navbar() {
             showLinks ? 'links-container show-container' : 'links-container'
           }`}
         >
-            {/* <ul className="links">
-              <Link to="/about">About/Contact</Link>
-            </ul> */}
+  
           <ul className="social-icons">
             <li>
               <a
