@@ -22,6 +22,7 @@ function App() {
         <div className="theme-toggle">
           <i onClick={switchTheme} className="fas fa-adjust"></i>
         </div>
+      <About />
         <Routes>
           <Route path="/" element={<Portfolio />} />
           <Route path="/about" element={<About />} />

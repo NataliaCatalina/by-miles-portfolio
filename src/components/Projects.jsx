@@ -28,7 +28,7 @@ function Projects({ projects }) {
               <div onClick={() => changeContent(menuProject)}>
                 <img
                   className="card-images"
-                  src={require(`../images/${image}`)}
+                  src={image}
                   alt="Thumbnail of the project"
                 />
                 <p className="portfolio-title">{title}</p>

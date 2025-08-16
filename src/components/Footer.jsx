@@ -39,8 +39,8 @@ function Footer() {
           </a>
         </li>
       </ul>
-      <p>© 2024 BY MILES</p>
-      <p>
+      <p>© 2025 BY MILES</p>
+      {/* <p>
         {' '}
         Developed by &nbsp;
         <a
@@ -50,7 +50,7 @@ function Footer() {
         >
           Natalia Catalina
         </a>
-      </p>
+      </p> */}
     </footer>
   )
 }

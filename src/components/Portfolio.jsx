@@ -11,7 +11,6 @@ const allCategories = ['All', ...new Set(projects.map((item) => item.category))]
 function Portfolio() {
   // CONTENT
   const [popContent, setPopContent] = useState(projects)
-  // const [categories, setCategories] = useState(allCategories)
   const categories = allCategories
 
   const filterProjects = (category) => {

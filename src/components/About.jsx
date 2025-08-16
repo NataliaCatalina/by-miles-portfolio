@@ -1,15 +1,18 @@
+import milesWilson from '../images/miles-wilson.jpg';
+
+
 function About() {
   return (
     <div className="about_container">
       <div className="image_container">
         <img
           className="about-image"
-          src={require('../images/miles-wilson.jpg')}
+          src={milesWilson}
           alt="Black and white portrait of Miles Wilson"
         />
       </div>
       <div className="information_container">
-        <h1>Contact Me</h1>
+        {/* <h1>Contact Me</h1> */}
         <div className="line"></div>
         <p>
           I'm based in Wellington, NZ, and call the suburb of Brooklyn home.
