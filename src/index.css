@@ -374,7 +374,7 @@ button {
 .information_container {
   width: 50%;
   height: auto;
-  padding: 80px 60px;
+  padding: 70px 30px;
   color: var(--text-primary);
 }
 
@@ -401,7 +401,7 @@ p {
   margin-right: auto;
   border-radius: 5px;
   background-color: var(--accent);
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 /* FOOTER  */
