@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.54db80da.chunk.css",
-    "main.js": "/static/js/main.c6977b23.chunk.js",
-    "main.js.map": "/static/js/main.c6977b23.chunk.js.map",
+    "main.js": "/static/js/main.120d88cb.chunk.js",
+    "main.js.map": "/static/js/main.120d88cb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b090829b.js",
     "runtime-main.js.map": "/static/js/runtime-main.b090829b.js.map",
     "static/js/2.043bd4be.chunk.js": "/static/js/2.043bd4be.chunk.js",
@@ -15,6 +15,7 @@
     "static/media/25april.84d6ea19.jpg": "/static/media/25april.84d6ea19.jpg",
     "static/media/byMiles.2a08e9d4.jpeg": "/static/media/byMiles.2a08e9d4.jpeg",
     "static/media/face-off.0e559819.jpg": "/static/media/face-off.0e559819.jpg",
+    "static/media/filmAndVideoShowreel.e2c452c7.jpg": "/static/media/filmAndVideoShowreel.e2c452c7.jpg",
     "static/media/lux.41bae088.jpg": "/static/media/lux.41bae088.jpg",
     "static/media/miles-wilson.3094461d.jpg": "/static/media/miles-wilson.3094461d.jpg",
     "static/media/off-course.a7476bb5.jpg": "/static/media/off-course.a7476bb5.jpg",
@@ -26,6 +27,6 @@
     "static/js/runtime-main.b090829b.js",
     "static/js/2.043bd4be.chunk.js",
     "static/css/main.54db80da.chunk.css",
-    "static/js/main.c6977b23.chunk.js"
+    "static/js/main.120d88cb.chunk.js"
   ]
 }
